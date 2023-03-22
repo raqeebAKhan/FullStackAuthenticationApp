@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght"300:400;500;600;700;800;900;&display=swap');
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2{
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  gap: 30px;
+  background: #ffffff;
+  font-size: 50px;
+  
+}
+h1{
+  margin-bottom: 20px;
+}
+
+  h4{
+    color: blue;
+    margin-top: 10px;
+   padding-left: 50px;
+    
+  
+  }
+
+  .reg-main{
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  gap: 30px;
+  background: #ffffff;
+  font-size: 50px;
+  
+
+  }
+  
+  .reg-div{
+display: flex;
+
+  }
+
+  .log-div{
+   display: flex;
+  }
+
+  .otp-div{
+    display: flex;
+  }
+
+  .row{
+    padding: 200px;
+   
+  }
+  h3{
+ color: blue;
+ }
+
+
+ .otp-field{
+  padding: 20px;
+  margin: 20px;
+  width: 50px;
+  padding-left: 50px;
+border-radius: 5px;
+border: 1px solid;
+box-shadow: 2px 2px 2px 2px rgb(67, 67, 251);
+
+ }
+
+ .img-final{
+  max-width: 100%;  
+  height: 200px;
+  border-radius: 100px; 
+ }
+
+ img {  
+  max-width: 100%;  
+  height: 70%; 
+  border-radius: 100px; 
+  } 
+  
+  .div-page1{
+    background-color: blue;
+    border-radius: 100px;
+    width: 100%;
+    margin-left: 20px;
+    margin-top: -200px;
+    margin-bottom: -200px;
+   }
+
+   .div-page2{
+    background-color: blue;
+    border-radius: 100px;
+    width: 100%;
+    margin-left: 20px;
+    margin-top: -200px;
+    margin-bottom: -400px;
+   }
+
+   
+  
+
+
+  .clear-h{
+    margin-right: 480px;
+  }
+
+  
+
+  .div-click{
+    display: flex;
+  
+  }
+
+  h6{
+    padding-top: 200px;
+   
+
+  }
+
+
+.otp-cont{
+  padding: 250px;
+  margin-right: -200px;
+}
+
+
+.reg-cont{
+  background: #fff;
+  padding: 250px;
+
+}
+
+.reg-cont h1{
+  color: blue;
+}
+
+
+.log-cont{
+ padding: 250px;
+}
+
+.inputBox{
+  position: relative;
+  width: 310px;
+}
+
+.inputBox input{
+  width: 100%;
+  padding: 10px;
+  background: #fff;
+  border-radius: 20px;
+  outline: none;
+  font-size:1em;
+
+}
+
+.PhoneInput .inputBox{
+  width: 20px;
+  padding: 10px;
+  background: #fff;
+  border-radius: 20px;
+  outline: none;
+  font-size:1em;
+
+}
+
+.inputBox .PhoneInput:valid ~ span,
+.inputBox .PhoneInput:focus ~ span
+{
+  color: blue;
+  transform: translateX(10px) translateY(-7px);
+  font-size: 0.65em;
+  padding: 0 10px;
+  background: white;
+  border-left: 1px solid blue;
+  border-right: 1px solid blue;
+}
+
+.inputBox .PhoneInput:valid,
+.inputBox .PhoneInput:focus
+{
+  border: 1px solid blue;
+}
+
+.inputBox span{
+  position: absolute;
+  left: 0;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 1em;
+  transition: 0.5s;
+}
+
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span
+{
+  color: blue;
+  transform: translateX(10px) translateY(-7px);
+  font-size: 0.65em;
+  padding: 0 10px;
+  background: white;
+  border-left: 1px solid blue;
+  border-right: 1px solid blue;
+}
+
+.inputBox input:valid,
+.inputBox input:focus
+{
+  border: 1px solid blue;
+}
+
+.log-cont button{
+  margin-top: 20px;
+}
+
+button{
+  display:inline-block;
+  padding:0.7em 9.5em;
+  margin:0 0.3em 0.3em 0;
+  border-radius: 20px;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:400;
+  color:#FFFFFF;
+  background-color:blue;
+  box-shadow:inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+  text-align:center;
+  position:relative;
+  }
+
+  button:hover{
+    border-color: rgb(19, 16, 16);
+    }
+    @media all and (max-width:30em){
+        input .button{
+    display:block;
+    margin:0.2em auto;
+    }
+
+
+    
+
+}
+button:active{
+box-shadow:inset 0 0.6em 2em -0.3em rgba(0,0,0,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+}
+@media all and (max-width:30em){
+a.button7{
+display:block;
+margin:0.4em auto;
+}
+}
+
+p{
+  color: black;
+  padding-left: 50px;
+  margin-top: 10px;
+
+}
+
+Link{
+  color: green;
+}
+
+.modal, .overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background: rgba(49,49,49,0.8);
+}
+.modal-content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 600px;
+  min-width: 300px;
+  padding: 100px 30px 100px 30px;
+  text-align: center;
+}
+
+.modal-content h1 {
+color: blue;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+p {
+  justify-content: center;
+}
+
+.HomeButton{
+ position: absolute;
+ right: 30px;
+ margin-top: 20px;
+
+}
+
+.HomeButton button{
+  background-color:blue;
+  padding: 10px 50px;
+  text-align: center;
+}
+
+.HomeButton Link {
+  color: #FFFFFF;
+}
+
+.HomeTitle {
+  text-align: center;
+}
