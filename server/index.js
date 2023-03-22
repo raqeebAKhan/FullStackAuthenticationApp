@@ -16,8 +16,10 @@ app.post('/api/register', async (req, res) => {
 	try {
 		const newPassword = await bcrypt.hash(req.body.password, 10)
 		await User.create({
-			name: req.body.name,
+			Firstname: req.body.Firstname,
+			Lastname: req.body.Lastname,
 			email: req.body.email,
+			phone: req.body.phone,
 			password: newPassword,
 		})
 		res.json({ status: 'ok' })
@@ -43,7 +45,8 @@ app.post('/api/login', async (req, res) => {
 	if (isPasswordValid) {
 		const token = jwt.sign(
 			{
-				name: user.name,
+				Firstname: user.Firstname,
+				Lastname: req.body.Lastname,
 				email: user.email,
 			},
 			'secret123'
